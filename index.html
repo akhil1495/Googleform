@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Dynamic Quiz — 100 Q Bank</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="quiz-container">
+    <header>
+      <h1>Web & CS Quiz</h1>
+      <div id="meta">
+        <div id="timer">Time Left: <span id="time">10:00</span></div>
+        <div id="count">Questions shown: <span id="shownCount">10</span></div>
+      </div>
+    </header>
+
+    <main>
+      <form id="quizForm" autocomplete="off"></form>
+
+      <div class="actions">
+        <button id="submitBtn" type="button">Submit Quiz</button>
+        <button id="playAgainBtn" type="button" class="hidden">Play Again</button>
+      </div>
+
+      <section id="result" aria-live="polite"></section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
