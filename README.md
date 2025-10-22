@@ -30,6 +30,5 @@ It features a **bank of 100 questions** covering **CS fundamentals, HTML, CSS, a
 📁 Quiz-App
  ┣ 📜 index.html          # Main page
  ┣ 📜 style.css           # Styling file
- ┣ 📜 script.js           # Core JavaScript logic
- ┣ 📜 questions.js        # Question bank (100 questions)
+ ┣ 📜 script.js           # Core JavaScript logic (100 questions included)
  ┗ 📜 README.md           # Project documentation
